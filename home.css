@@ -29,6 +29,9 @@
     font-size: 14px;
   }
 }
+.center {
+  margin: auto;
+}
 
 .you-tube-you-tube {
   width: 240px;
@@ -211,7 +214,7 @@
 }
 .home-logo1 {
   width: 105px;
-  margin-left: var(--dl-space-space-halfunit);
+  margin: auto;
 }
 .home-links1 {
   display: flex;
@@ -1653,6 +1656,7 @@
   margin-top: 52px;
   align-items: flex-start;
   flex-direction: column;
+  text-align: center;
 }
 .home-text116 {
   color: rgb(255, 255, 255);
@@ -1807,6 +1811,7 @@
   align-items: flex-start;
   user-select: none;
   flex-direction: column;
+  margin: auto;
 }
 .home-branding {
   width: var(--dl-size-size-large);
@@ -1841,6 +1846,7 @@
   }
   .home-logo1 {
     width: 64px;
+    margin: auto;
   }
   .home-links1 {
     display: none;
