@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WMQJRXN86"></script>
+    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.8/src/glowCookies.min.js"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-7WMQJRXN86');
+        glowCookies.start('de', {
+            style: 1,
+            analytics: 'G-7WMQJRXN86',
+            hideAfterClick: true,
+            position: 'right',
+            policyLink: 'cookiepolicy.html'
+        });
     </script>
     <title>You!</title>
     <meta
